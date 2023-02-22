@@ -13,14 +13,6 @@ type Props = {
 const Footer: React.FC<Props> = ({ className }) => {
   return (
     <div className={className}>
-      <a
-        href={`https://github.com/${CONFIG.profile.github}`}
-        target="_blank"
-        className="text-gray-500 text-sm mt-3"
-        rel="noreferrer"
-      >
-        © {CONFIG.profile.name} {from === y || !from ? y : `${from} - ${y}`}
-      </a>
     </div>
   )
 }
