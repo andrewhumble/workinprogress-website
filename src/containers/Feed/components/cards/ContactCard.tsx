@@ -23,9 +23,9 @@ const ContactCard: React.FC = () => {
             <div className="text-sm">Andrew Humble</div>
           </a>
         )}
-        {CONFIG.profile.instagram && (
+        {CONFIG.profile.email && (
           <a
-            href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
+            href={`mailto:${CONFIG.profile.email}`}
             rel="noreferrer"
             target="_blank"
             className="overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
