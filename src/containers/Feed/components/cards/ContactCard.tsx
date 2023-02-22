@@ -23,6 +23,8 @@ const ContactCard: React.FC = () => {
             <div className="text-sm">Andrew Humble</div>
           </a>
         )}
+      </ul>
+      <ul className="rounded-2xl bg-white dark:bg-zinc-700 p-1 flex flex-col">
         {CONFIG.profile.linkedin_ella && (
           <a
             href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin_ella}`}
@@ -34,6 +36,8 @@ const ContactCard: React.FC = () => {
             <div className="text-sm">Ella Johnson</div>
           </a>
         )}
+      </ul>
+      <ul className="rounded-2xl bg-white dark:bg-zinc-700 p-1 flex flex-col">
         {CONFIG.profile.linkedin_steven && (
           <a
             href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin_steven}`}
@@ -45,6 +49,8 @@ const ContactCard: React.FC = () => {
             <div className="text-sm">Steven Xu</div>
           </a>
         )}
+      </ul>
+      <ul className="rounded-2xl bg-white dark:bg-zinc-700 p-1 flex flex-col">
         {CONFIG.profile.linkedin_darius && (
           <a
             href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin_darius}`}
