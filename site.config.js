@@ -10,6 +10,9 @@ const CONFIG = {
     linkedin_ella: "",
     linkedin_steven: "",
     linkedin_darius: "",
+    linkedin: "morethanmin",
+    github: "morethanmin",
+    instagram: "",
   },
   projects: [
     {
