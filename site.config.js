@@ -6,14 +6,15 @@ const CONFIG = {
     role: "CSCI 4800 Spring 2023 Project",
     bio: "Strengthening access to education through design changes to the MIT OpenCourseWare website.",
     email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    linkedin_andrew: "morethanmin",
+    linkedin_ella: "",
+    linkedin_steven: "",
+    linkedin_darius: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `csci4800-website`,
+      href: "https://michaelcotterell.com/hci/2023sp/html/index.html",
     },
   ],
   // blog setting (required)
