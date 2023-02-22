@@ -19,7 +19,7 @@ const ContactCard: React.FC = () => {
             target="_blank"
             className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white "
           >
-            <AiOutlineLinkedin className="text-2xl" />
+            <AiFillLinkedin className="text-2xl flex-shrink-0" />
             <div className="text-sm">Andrew Humble</div>
           </a>
         )}
@@ -30,7 +30,7 @@ const ContactCard: React.FC = () => {
             target="_blank"
             className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
-            <AiOutlineLinkedin className="text-2xl" />
+            <AiFillLinkedin className="text-2xl flex-shrink-0" />
             <div className="text-sm">Ella Johnson</div>
           </a>
         )}
@@ -41,7 +41,7 @@ const ContactCard: React.FC = () => {
             target="_blank"
             className="overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
-            <AiOutlineLinkedin className="text-2xl flex-shrink-0" />
+            <AiFillLinkedin className="text-2xl flex-shrink-0" />
             <div className="text-sm">Steven Xu</div>
           </a>
         )}
