@@ -14,43 +14,37 @@ const ContactCard: React.FC = () => {
       <ul className="rounded-2xl bg-white dark:bg-zinc-700 p-1 flex flex-col">
         {CONFIG.profile.linkedin_andrew && (
           <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin_andrew}`}
+            href={`https://github.com/${CONFIG.linkedin_andrew.github}`}
             rel="noreferrer"
             target="_blank"
-            className="  overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white "
           >
-            <AiFillLinkedin className="text-2xl flex-shrink-0" />
+            <AiOutlineGithub className="text-2xl" />
             <div className="text-sm">Andrew Humble</div>
           </a>
         )}
-      </ul>
-      <ul className="rounded-2xl bg-white dark:bg-zinc-700 p-1 flex flex-col">
         {CONFIG.profile.linkedin_ella && (
           <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin_ella}`}
+            href={`https://www.instagram.com/${CONFIG.profile.linkedin_ella}`}
             rel="noreferrer"
             target="_blank"
-            className="  overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
-            <AiFillLinkedin className="text-2xl flex-shrink-0" />
+            <AiOutlineInstagram className="text-2xl" />
             <div className="text-sm">Ella Johnson</div>
           </a>
         )}
-      </ul>
-      <ul className="rounded-2xl bg-white dark:bg-zinc-700 p-1 flex flex-col">
         {CONFIG.profile.linkedin_steven && (
           <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin_steven}`}
+            href={`mailto:${CONFIG.profile.linkedin_steven}`}
             rel="noreferrer"
             target="_blank"
-            className="  overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+            className="overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
-            <AiFillLinkedin className="text-2xl flex-shrink-0" />
+            <AiOutlineMail className="text-2xl flex-shrink-0" />
             <div className="text-sm">Steven Xu</div>
           </a>
         )}
-      </ul>
-      <ul className="rounded-2xl bg-white dark:bg-zinc-700 p-1 flex flex-col">
         {CONFIG.profile.linkedin_darius && (
           <a
             href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin_darius}`}
