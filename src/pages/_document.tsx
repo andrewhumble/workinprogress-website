@@ -14,9 +14,9 @@ class MyDocument extends Document {
           />
           <link rel="icon" href="/favicon.ico" />
           <link
-            rel="apple-touch-icon"
+            rel="wip-logo"
             sizes="192x192"
-            href="/apple-touch-icon.png"
+            href="/wip_logo.png"
           ></link>
           <link
             rel="alternate"
