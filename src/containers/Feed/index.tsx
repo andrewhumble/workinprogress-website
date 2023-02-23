@@ -35,6 +35,6 @@ const Feed: React.FC<Props> = ({ tags, posts }) => {
       <Lists.TagList className="hidden lg:block col-span-2" data={tags} />
     </div>
   )
-} 
+}
 
 export default Feed
