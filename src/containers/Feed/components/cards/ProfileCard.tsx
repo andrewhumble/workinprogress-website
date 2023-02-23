@@ -12,7 +12,6 @@ const ProfileCard: React.FC<Props> = ({ className }) => {
       <div className="p-1 mb-3 dark:text-white"></div>
       <div className="w-full md:p-4 lg:p-4 rounded-2xl bg-white dark:bg-zinc-700 mb-9">
         <div className="relative w-full after:content-[''] after:block after:pb-[100%]">
-          Add spacing to all sides of image of 1
           <div className="absolute top-1 left-1 right-1 bottom-1 w-full h-full after:content-[''] after:block after:pb-[100%]">
           <Image src={CONFIG.profile.image} layout="fill" alt="" />
           </div>
