@@ -14,6 +14,6 @@ const Logo: React.FC<Props> = () => {
       </div>
     </Link>
   )
-} 
+}
 
 export default Logo
