@@ -4,7 +4,7 @@ import React from "react"
 
 type Props = {
   className?: string
-}
+} 
 
 const ProfileCard: React.FC<Props> = ({ className }) => {
   return (
