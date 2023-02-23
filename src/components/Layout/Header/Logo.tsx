@@ -7,13 +7,11 @@ type Props = {}
 const Logo: React.FC<Props> = () => {
   return (
     <Link href="/">
-      <a aria-label={CONFIG.blog.title}>
-        <div className="flex items-center">
-          <div className="ml-2 text-black dark:text-white header-name" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
-            {CONFIG.blog.title}
-          </div>
-        </div>
-      </a>
+      <div className="flex items-center">
+        <a aria-label={CONFIG.blog.title} href="">
+          {CONFIG.blog.title}
+        </a>
+      </div>
     </Link>
   )
 }

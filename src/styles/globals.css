@@ -116,3 +116,7 @@ nav {
     overflow-x: hidden;
   }
 }
+
+a:hover {
+  color: #b8b8b8;
+}
