@@ -20,8 +20,8 @@ const Feed: React.FC<Props> = ({ tags, posts }) => {
     <div className="block md:grid grid-cols-12 gap-6">
       <div className="hidden lg:block lg:col-span-3">
         <Cards.ProfileCard />
-        <Cards.ServiceCard />
         <Cards.ContactCard />
+        <Cards.ServiceCard />
         <Footer className="pt-4" />
       </div>
       <div className="col-span-12 lg:col-span-7">
