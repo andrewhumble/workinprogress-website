@@ -12,16 +12,13 @@ const Header: React.FC<Props> = ({ fullWidth }) => {
   const navRef = useRef(null)
 
   return (
-    <div
-      className={`sticky-nav m-auto w-full h-6 flex flex-row justify-between items-center mb-2 md:mb-6 py-8 bg-opacity-60 max-w-6xl px-4 ${
-        fullWidth && "px-4 md:px-24"
-      }`}
-      id="sticky-nav"
-      ref={navRef}
-    >
-      <Logo />
-      <div className={`flex gap-3 items-center`}>
-        <ThemeToggle />
+    <div className="sticky-nav w-full h-6 flex flex-row justify-between items-center mb-2 md:mb-6 py-12 bg-opacity-60 px-12 mx-auto max-w-full">
+      <div className="mx-auto">
+        <div className="flex items-center flex-grow">
+          <Logo className="ml-12 mx-auto" />
+        </div>
+      </div>
+      <div className="flex items-center">
         <NavBar />
       </div>
     </div>

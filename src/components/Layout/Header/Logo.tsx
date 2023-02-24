@@ -2,13 +2,15 @@ import React from "react"
 import Link from "next/link"
 import CONFIG from "site.config"
 
-type Props = {}
+type Props = {
+  className?: string;
+};
 
-const Logo: React.FC<Props> = () => {
+const Logo = ({ className }: Props) => {
   return (
     <Link href="/">
-      <div className="flex items-center">
-        <a aria-label={CONFIG.blog.title} href="">
+      <div className="flex items-center centered-div">
+        <a aria-label={CONFIG.blog.title} href="" className={`${className}`}>
           {CONFIG.blog.title}
         </a>
       </div>
