@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Work In Progress",
-    image: "/wip_logo.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/ocw_logo.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "CSCI 4800 Spring 2023 Project",
     bio: "Strengthening access to education through design changes to the MIT OpenCourseWare website.",
     email: "morethanmin.dev@gmail.com",

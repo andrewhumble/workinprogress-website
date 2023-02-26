@@ -36,6 +36,6 @@ const Feed: React.FC<Props> = ({ tags, posts }) => {
       </div>
     </div>
   )
-} 
+}
 
 export default Feed

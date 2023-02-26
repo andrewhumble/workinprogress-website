@@ -17,7 +17,7 @@ const ContactCard: React.FC = () => {
             href={`https://www.linkedin.com/in/andrewhumble`}
             rel="noreferrer"
             target="_blank"
-            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white "
+            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-600 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white "
           >
             <AiFillLinkedin className="text-2xl flex-shrink-0" />
             <div className="text-sm">Andrew Humble</div>
@@ -28,7 +28,7 @@ const ContactCard: React.FC = () => {
             href={`https://www.linkedin.com/in/ellarjohnson/`}
             rel="noreferrer"
             target="_blank"
-            className="overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+            className="overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-600 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
             <AiFillLinkedin className="text-2xl flex-shrink-0" />
             <div className="text-sm">Ella Johnson</div>
@@ -39,7 +39,7 @@ const ContactCard: React.FC = () => {
             href={`https://www.linkedin.com/in/steven-xu-a818731aa/`}
             rel="noreferrer"
             target="_blank"
-            className="overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+            className="overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-600 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
             <AiFillLinkedin className="text-2xl flex-shrink-0" />
             <div className="text-sm">Steven Xu</div>
@@ -50,7 +50,7 @@ const ContactCard: React.FC = () => {
             href={`https://www.linkedin.com/in/darius-nwadike/`}
             rel="noreferrer"
             target="_blank"
-            className="  overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+            className="  overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-600 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
             <AiFillLinkedin className="text-2xl flex-shrink-0" />
             <div className="text-sm">Darius Nwadike</div>
