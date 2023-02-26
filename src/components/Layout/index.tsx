@@ -14,7 +14,7 @@ const Layout: React.FC<Props> = ({
   fullWidth = false,
 }) => {
   return (
-    <div className="bg-gray-100">
+    <div className="light:bg-gray-100 dark:bg-grey-900">
       <MetaConfig {...metaConfig} />
       <div className={`wrapper`}>
         {metaConfig.type !== "Paper" && <Header fullWidth={fullWidth} />}
