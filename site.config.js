@@ -22,7 +22,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "Work In Progress",
+    title: "WORK IN PROGRESS",
     description: "CSCI 4800 Spring 2023 Group Project",
     theme: "light", // ['light', 'dark', 'auto']
   },

@@ -12,14 +12,17 @@ const Header: React.FC<Props> = ({ fullWidth }) => {
   const navRef = useRef(null)
 
   return (
-    <div className="sticky-nav w-full h-6 flex flex-row justify-between items-center mb-2 md:mb-6 py-12 bg-opacity-60 px-12 mx-auto max-w-full">
-      <div className="mx-auto">
-        <div className="flex items-center flex-grow">
-          <Logo className="ml-12 mx-auto" />
-        </div>
+    <div className="grid grid-cols-2 grid-rows-2 gap-7 sticky-nav h-6 flex flex-row items-center md:mb-6 py-20 bg-opacity-60 px-40">
+      <div className="flex flex-grow">
+        <Logo className="logo" />
       </div>
-      <div className="flex items-center">
+      <div className="row-span-2 justify-self-end">
         <NavBar />
+      </div>
+      <div className="pl-2">
+        <div className="flex flex-grow">
+          <i className="nav">A CSCI 4800 Spring 2023 Project</i>
+        </div>
       </div>
     </div>
   )

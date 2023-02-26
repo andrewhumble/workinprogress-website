@@ -10,7 +10,7 @@ const Logo = ({ className }: Props) => {
   return (
     <Link href="/">
       <div className="flex items-center centered-div">
-        <a aria-label={CONFIG.blog.title} href="" className={`${className}`}>
+        <a aria-label={CONFIG.blog.title} href="" className={`logo ${className}`}>
           {CONFIG.blog.title}
         </a>
       </div>
