@@ -19,7 +19,7 @@ const ProfileCard: React.FC<Props> = ({ className }) => {
         </div>
         <div className="relative w-full after:content-[''] after:block after:pb-[100%]">
           <div className="absolute w-full h-full after:content-[''] after:block after:pb-[100%]">
-            <a href='https://ocw.mit.edu/' target="_blank">
+            <a href='https://ocw.mit.edu/' target="_blank" rel="noreferrer">
               <Image src={CONFIG.profile.image} layout="fill" alt="" sizes=
                 "(max-width: 50%) 100vw, 50vw"
               />
