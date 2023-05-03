@@ -142,3 +142,8 @@ a {
   font-weight: 900;
   font-style: italic;
 }
+
+/* make the details tag open by default */
+details[open] > * {
+  display: block;
+}
